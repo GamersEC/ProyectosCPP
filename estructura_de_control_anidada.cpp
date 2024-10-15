@@ -18,6 +18,10 @@ int main(){
     cout << "2.Ingenieria Civil" << endl;
     cout << "3.Ingenieria de Software" << endl;
     cin >> carrera;
+    if(carrera=1)
+    {
+        cout << "Selecciono la carrera Ciencia de datos e IA, en el paralelo " << paralelo << endl;
+    }
 
     return 0;
 }
