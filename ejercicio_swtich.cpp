@@ -20,6 +20,7 @@ int main(){
             cout << "Radio: ";
             cin >> radio;
             area = 3.14159*radio;
+            cout << "El area del ciruclo es: " << area << endl;
             break;
 
         }
@@ -32,6 +33,8 @@ int main(){
             cin >> base;
             cout << "Altura: ";
             cin >> altura;
+            area = (base*altura)/2;
+            cout << "El area del triangulo es: " << area << endl;
             break;
 
         }
