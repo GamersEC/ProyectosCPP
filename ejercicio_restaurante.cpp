@@ -5,10 +5,11 @@ int main(){
     int menu, precio;
     string dia;
 
-    cout << "Seleccione un plato del menu" << endl;
+    cout << "*** Menu de Restaurante ***" << endl;
     cout << "1. Pollo $10" << endl;
     cout << "2. Carne: $15" << endl;
     cout << "3. Pescado: $20" << endl;
+    cout << "Ingrese una opcion: ";
     cin >> menu;
 
     switch (menu)
@@ -52,7 +53,7 @@ int main(){
         precio = precio;
     }
 
-    cout << "El precio a pagar es: " << precio << endl;
+    cout << "Total a pagar: " << precio << endl;
 
     return 0;
     }
