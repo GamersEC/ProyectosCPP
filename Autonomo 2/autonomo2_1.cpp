@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -39,10 +38,10 @@ int main()
     bono=0.00;
     }
     
-    // Mostrar resultados en terminal
+    //Mostrar resultados en terminal
     cout << "Clasificación del desempeño: " << clasificacion << endl;
     cout << "Bono: $" << bono << endl;
-    cout << "Salario total: " << salario+bono << endl;
+    cout << "Salario total: $" << salario+bono << endl;
 
 
     cin.get();
