@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "autonomo1_4": "cpp"
+        "autonomo1_4": "cpp",
+        "ostream": "cpp"
     }
 }
