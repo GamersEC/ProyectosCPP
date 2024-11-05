@@ -4,8 +4,8 @@ using namespace std;
 void vocales_consonantes(const string& cadena, int& vocales, int& consonantes) {
     vocales = consonantes = 0;
     for (char c : cadena) {
-        c = tolower(c); // Convertir a minúsculas
-        if (c >= 'a' && c <= 'z') { // Verificar si es una letra
+        c = tolower(c); //Convertir a minúsculas el texto
+        if (c >= 'a' && c <= 'z') { //Verificar si es una letra
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
                 vocales++;
             else
