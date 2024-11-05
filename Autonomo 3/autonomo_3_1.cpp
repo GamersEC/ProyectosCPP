@@ -46,7 +46,7 @@ int main() {
 
         case 3:
             {
-                cout << "Conversion de Gramos a Kilogramos: " << g_kg(valor) << " kilogramos" << endl;
+                cout << "Conversion de Gramos a Kilogramos: " << g_kg(valor) << " kg" << endl;
             break;
             }
 
