@@ -7,10 +7,10 @@ using namespace std;
 
 long long seriepotencia(long long base, int exponente, int limite) {
     if (limite == 0) {
-        return 0; // Caso base: cuando ya no hay más términos
+        return 0;
     } else {
-        long long term = pow(base, exponente * limite); // Calcula el término actual de la serie
-        return term + seriepotencia(base, exponente, limite - 1); // Acumula el término actual y llama recursivamente
+        long long term = pow(base, exponente * limite);
+        return term + seriepotencia(base, exponente, limite - 1);
     }
 }
 
