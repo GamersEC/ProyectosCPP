@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "autonomo1_4": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "CodeGPT.apiKey": "OpenAI"
 }
