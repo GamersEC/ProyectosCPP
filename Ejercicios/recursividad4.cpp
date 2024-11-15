@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 // Serie de potencias: solicita por teclado base y exponente, y calcula la suma de los primeros n términos
