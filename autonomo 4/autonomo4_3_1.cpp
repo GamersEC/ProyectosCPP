@@ -1,16 +1,14 @@
 #include <iostream>
 using namespace std;
 
-//Funcion iterativa para calcular el Maximo Comun Divisor
+//Funcion de recursividad para calcular el Maximo Comun Divisor (MCD)
 int mcd(int a, int b) {
-    while (b != 0)
+    if (b == 0) 
     {
-        int temp = b;
-        b = a % b;
-        a = temp;
+        return a;
     }
     
-    return a;
+    return mcd(b, a % b);
 }
 
 

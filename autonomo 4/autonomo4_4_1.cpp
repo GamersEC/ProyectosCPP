@@ -1,23 +1,20 @@
 #include <iostream>
 using namespace std;
 
-//Función iterativa para calcular el producto de dos números mediante sumas sucesivas
+//Funcion de recursividad para calcular el producto de dos números mediante sumas sucesivas
 int producto(int a, int b) {
-    int producto = 0;
+    if (b == 0)
+    {
+        return 0;
+    }
 
-    //Condicional para numeros negativos
+    //Condicional para los numeros negativos
     if (b < 0)
     {
-        a = -a;
-        b = -b;
+        return -producto(a, -b);
     }
 
-    for (int i = 0; i < b; i++)
-    {
-        producto += a;
-    }
-
-    return producto;
+    return a + producto(a, b - 1);
 }
 
 
