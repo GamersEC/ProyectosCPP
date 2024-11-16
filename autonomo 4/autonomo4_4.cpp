@@ -2,7 +2,7 @@
 using namespace std;
 
 
-//Funcion de recursividad para calcular el producto de dos números mediante sumas sucesivas
+//Funcion de recursividad para calcular el producto de dos numeros mediante sumas sucesivas
 int productoRecursivo(int a, int b) {
     if (b == 0)
     {
@@ -19,7 +19,7 @@ int productoRecursivo(int a, int b) {
 }
 
 
-//Función iterativa para calcular el producto de dos números mediante sumas sucesivas
+//Función iterativa para calcular el producto de dos numeros mediante sumas sucesivas
 int productoIterativo(int a, int b) {
     int productoIterativo = 0;
 
@@ -42,8 +42,8 @@ int productoIterativo(int a, int b) {
 int main() {
     int num1, num2, resultadoRecursivo, resultadoIterativo;
     
-    //Solicitar los números al usuario
-    cout << "Ingrese dos números para calcular el producto: " << endl;
+    //Solicitar los numeros al usuario
+    cout << "Ingrese dos numeros para calcular el producto: " << endl;
     cin >> num1 >> num2;
     
     //Calcular el producto Recursivo
