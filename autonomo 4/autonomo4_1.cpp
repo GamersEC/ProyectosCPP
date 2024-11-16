@@ -22,6 +22,7 @@ int main() {
         factorial *= i;
         cout << factorial << " ";
     }
+    cout << endl;
 
     return 0;
 }
