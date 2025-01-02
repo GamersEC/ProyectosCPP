@@ -25,7 +25,7 @@ void mostrarNieve() {
         for (int i = 0; i < alto; i++) {
             for (int j = 0; j < ancho; j++) {
                 if (i == alto / 2 && j == ancho / 3) {
-                    cout << "¡Feliz Navidad!";
+                    cout << "Feliz Navidad!";
 
                     //Posicion del texto
                     j += 12;
