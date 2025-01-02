@@ -1,39 +1,41 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
 
-    int estudiantes;
-    float diferencia;
-    //Solicitar el numero de estudiantes
-    cout << "Ingrese el numero de estudiantes: ";
+    //Variable
+     int estudiantes;
+
+    cout << "Ingrese la cantidad de estudiantes: ";
     cin >> estudiantes;
 
-    //Arreglo
+    //Condicional para verificar que los estudiantes sean positivos
+    if (estudiantes <= 0) {
+        cout << "La cantidad de estudiantes debe ser mayor a 0" << endl;
+        return 0;
+    }
+
+    //Arreglos
     float materia1[estudiantes];
     float materia2[estudiantes];
 
-    //Calificaciones de la primera materia
-    cout << "Ingrese las calificaciones de la primer materia:\n";
+    //Ingreso de notas de la primera materia
+    cout << "Ingrese las notas de la materia 1: " << endl;
     for (int i = 0; i < estudiantes; i++) {
-        cout << "Estudiante " << i+1 << ": ";
+        cout << "Estudiante " << i + 1 << ": ";
         cin >> materia1[i];
     }
-
-    //Calificaciones de la segunda materia
-    cout << "Ingrese las calificaciones de la segunda materia:\n";
+    //Ingreso de notas de la segunda materia
+    cout << "Ingrese las notas de la materia 2: " << endl;
     for (int i = 0; i < estudiantes; i++) {
         cout << "Estudiante " << i + 1 << ": ";
         cin >> materia2[i];
     }
 
-    //Diferencia
-    cout << "Diferencia de calificaciones entre las dos materias:\n";
-    for (int i = 0; i < estudiantes; i++) {
-    diferencia = materia1 - materia2;
-    cout << "Estudiante " << i + 1 << ": " << diferencia << endl;
+    //Diferencia de las calificaciones
+    cout << "Diferencia de las calificaciones: " << endl;
+    for (int i = 0; i< estudiantes; i++) {
+        cout << "Estudiante " << i + 1 << ": " << materia1[i] - materia2[i] << endl;
     }
-
     return 0;
 }
