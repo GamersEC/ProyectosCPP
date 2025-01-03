@@ -38,7 +38,7 @@ void modificarEstudiante(string nombres[], int edades[], int cantidad){
       return;
     }
   }
-  cout << "No se encontro el estudiante" << endl;
+  cout << " No se encontro el estudiante"<< endl;
 }
 
 
@@ -88,9 +88,9 @@ int main (){
   int opcion, edades[MAX_ESTUDIANTES], cantidad = 0;
   string nombres[MAX_ESTUDIANTES];
 
-  //Bucle de repetición para la opciones
+  //Bucle de repetición para las opciones
   do {
-    cout << "1. Agregar un nuevo estudiantes" << endl;
+    cout << "1. Agregar un nuevo estudiante" << endl;
     cout << "2. Modificar estudiante" << endl;
     cout << "3. Eliminar estudiante" << endl;
     cout << "4. Buscar un estudiante por nombre" << endl;
